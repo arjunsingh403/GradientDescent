@@ -22,7 +22,7 @@ function gradientDescent() {
 		b += (error) * learning_rate;
 	}
 	
-	document.getElementById("equation").innerHTML = "Regression Equation: y = "+m*600+" * x + "+b*600;
+	document.getElementById("equation").innerHTML = "Regression Equation: y = "+m+" * x + "+b*600;
 }
 
 function drawLine() {
