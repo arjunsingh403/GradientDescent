@@ -1,0 +1,22 @@
+body {
+	background-image: url("https://d2gg9evh47fn9z.cloudfront.net/800px_COLOURBOX4765197.jpg");
+}
+
+h1, p {
+	font-family: 'Source Sans Pro', sans-serif;
+	color: white;
+	margin: 2px;
+	text-align: center;
+}
+
+div {
+	text-align: center;
+	margin: 5px;
+}
+
+canvas { 
+	position: absolute; 
+	left: 50%; 
+	margin-left: -300px; /* This is half the width */
+	padding-top: 5px; 
+} 
